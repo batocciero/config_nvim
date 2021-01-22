@@ -88,7 +88,7 @@ let mapleader="\<space>"
 nnoremap <leader>; A;<esc>
 
 " Clean selected item 
-nnoremap <leader><space> :noh<cr>
+nnoremap <leader>C :noh<cr>
 
 " ruby formatter
 let g:rufo_auto_formatting = 1

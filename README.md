@@ -1,19 +1,50 @@
 # My Config backup
 
-* Plugin manager:
-    *[vim-plug]("https://github.com/junegunn/vim-plug")
+Dependencies:
 
-* Funcionalities:
-    Theme "Dracula"
-    autocomplete emmet html
-    autopairs
-    commentary
-    Autocomplete
-    NERDTree
-    Fuzz finder
-    Java Script and html syntaxe
-    Type script
+- node
+- ruby gem (solargraph, rufo)
 
+#### Basic settings
 
+- set hidden
+- set number
+- set relativenumber
+- set mouse=a
+- set inccommand=split
+- set tabstop=2
+- set shiftwidth=2
+- set expandtab
+- set confirm
+- set autoread
 
-["Some configuration  I had follow this link"]("https://medium.com/better-programming/setting-up-neovim-for-web-development-in-2020-d800de3efacd")
+- let mapleader="\<space>"
+- nnoremap <leader>; A;<esc>
+- nnoremap <leader>C :noh<cr>
+
+### Some functionalities whith Plugins.
+
+#### Basic for all languages.
+
+- vim polyglot
+- dracula theme
+- nerdtree
+- Fuzzy finder
+- endwise
+- supertab
+- coc.nvim (First was only for js)
+- commentary
+- auto-pairs
+- vim-devicons
+
+#### Ruby
+
+- vim-ruby
+- vim-rails
+- rufo-vim
+
+#### Java script Typescript
+
+- emmet
+- typescript-vim
+- vim-jsx-typescript
