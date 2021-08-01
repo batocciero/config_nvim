@@ -8,13 +8,8 @@ let g:polyglot_disabled = ['markdown']
 
 call plug#begin()
 
-" ruby
-Plug 'vim-ruby/vim-ruby'
-Plug 'tpope/vim-rails'
-Plug 'ruby-formatter/rufo-vim'
-
 " Theme
-Plug 'dracula/vim'
+Plug 'ayu-theme/ayu-vim' " or other package manager
 
 " Better syntaxe
 Plug 'sheerun/vim-polyglot'
@@ -49,11 +44,14 @@ Plug 'ervandew/supertab'
 
 call plug#end()
 
-if (has("termguicolors"))
- set termguicolors
-endif
-syntax enable
-colorscheme dracula
+Plug 'ayu-theme/ayu-vim' " or other package manager
+"...
+set termguicolors     " enable true colors support
+"let ayucolor="light"  " for light version of theme
+let ayucolor="mirage" " for mirage version of theme
+"let ayucolor="dark"   " for dark version of theme
+colorscheme ayu
+
 
 set hidden
 set number
@@ -90,5 +88,3 @@ nnoremap <leader>; A;<esc>
 " Clean selected item 
 nnoremap <leader>C :noh<cr>
 
-" ruby formatter
-let g:rufo_auto_formatting = 1

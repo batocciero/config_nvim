@@ -3,7 +3,6 @@
 Dependencies:
 
 - node
-- ruby gem (solargraph, rufo)
 
 #### Basic settings
 
@@ -36,12 +35,6 @@ Dependencies:
 - commentary
 - auto-pairs
 - vim-devicons
-
-#### Ruby
-
-- vim-ruby
-- vim-rails
-- rufo-vim
 
 #### Java script Typescript
 
